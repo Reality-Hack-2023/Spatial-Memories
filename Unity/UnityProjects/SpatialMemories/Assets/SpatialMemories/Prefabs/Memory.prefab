@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1039428750948011782}
   - component: {fileID: 1039428750948011777}
   - component: {fileID: 3503446418860501281}
+  - component: {fileID: 5606961106091051133}
   m_Layer: 0
   m_Name: Memory
   m_TagString: Untagged
@@ -385,7 +386,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 0
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
@@ -425,7 +426,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -610,6 +611,22 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.15
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5606961106091051133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039428750948011789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d16fa47bdd17bc4ab8bf14e043f3f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 1039428750948011776}
+  stopVisual: {fileID: 0}
+  playVisual: {fileID: 0}
+  microphoneManager: {fileID: 0}
 --- !u!1 &1039428752044028408
 GameObject:
   m_ObjectHideFlags: 0
