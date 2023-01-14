@@ -59,6 +59,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 372063526549692233, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 372063527002377915, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
       propertyPath: m_Name
       value: TogglePressableButton_32x32mm_IconAndText
@@ -66,6 +70,18 @@ PrefabInstance:
     - target: {fileID: 589295315558989584, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 677119689382998806, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01440032
+      objectReference: {fileID: 0}
+    - target: {fileID: 677119689382998806, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01440032
+      objectReference: {fileID: 0}
+    - target: {fileID: 677119689382998806, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0040909997
       objectReference: {fileID: 0}
     - target: {fileID: 1067509237937949148, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
       propertyPath: isStatefulToggled.onExited.m_PersistentCalls.m_Calls.Array.size
@@ -135,17 +151,41 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 4bc4f784341edb44e8b09355c2128ffa, type: 3}
+    - target: {fileID: 7273336189566515009, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3e21784bb2d07634d997659c7817648e, type: 3}
     - target: {fileID: 7719146173020842744, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8259050266689090269, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
+      propertyPath: managedReferences[6995153782364962816]
+      value: Microsoft.MixedReality.Toolkit.UXCore Microsoft.MixedReality.Toolkit.UX.SetTargetsActiveEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259050266689090269, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
+      propertyPath: managedReferences[6995153782364962816].name
+      value: Set Targets Active/Inactive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259050266689090269, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
+      propertyPath: managedReferences[6995153782364962816].invert
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259050266689090269, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
+      propertyPath: managedReferences[6995153782364962816].targets.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259050266689090269, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
+      propertyPath: managedReferences[6995153782364962816].targets.Array.data[0]
+      value: 
+      objectReference: {fileID: 7051363911311458445}
     - target: {fileID: 8259050266689090269, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
       propertyPath: stateContainers.entries.Array.data[4].value.effects.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8259050266689090269, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
       propertyPath: stateContainers.entries.Array.data[4].value.effects.Array.data[0]
-      value: Microsoft.MixedReality.Toolkit.UXCore Microsoft.MixedReality.Toolkit.UX.SetTargetsActiveEffect
+      value: 6995153782364962816
       objectReference: {fileID: 0}
     - target: {fileID: 8259050266689090269, guid: ebf6a177e3199274b8bd12a0c8157f29, type: 3}
       propertyPath: stateContainers.entries.Array.data[4].value.effects.Array.data[0].clip
