@@ -7,9 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 261503795053926755, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01751112
+      objectReference: {fileID: 0}
+    - target: {fileID: 261503795053926755, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01751112
+      objectReference: {fileID: 0}
+    - target: {fileID: 261503795053926755, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.00497475
+      objectReference: {fileID: 0}
     - target: {fileID: 1147649739598636238, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
       propertyPath: m_Name
-      value: TogglePressableButton_32x32mm_Circular_IconOnly
+      value: TogglePressableButton_Stop
       objectReference: {fileID: 0}
     - target: {fileID: 1147649740051854652, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
       propertyPath: m_IsActive
@@ -71,6 +83,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UX.Button.CircularFrontplateHighlight
       objectReference: {fileID: 0}
+    - target: {fileID: 1510850789505225798, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2167637656416700379, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -91,6 +107,22 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: edcd7c74a5fcb1e4cb477a62e8ad276e, type: 2}
+    - target: {fileID: 5740891576553184235, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.89393
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740891576553184235, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.89393
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740891576553184235, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.89393
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740891576553184235, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00053033
+      objectReference: {fileID: 0}
     - target: {fileID: 5951146835784878677, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -106,7 +138,7 @@ PrefabInstance:
     - target: {fileID: 7941117382248455476, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 58f14a760546cff4ba0df91c1a153393, type: 3}
+      objectReference: {fileID: 21300000, guid: 3e21784bb2d07634d997659c7817648e, type: 3}
     - target: {fileID: 8557370834434295802, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
       propertyPath: m_Name
       value: UX.Button.CircularBackplateHighlight
