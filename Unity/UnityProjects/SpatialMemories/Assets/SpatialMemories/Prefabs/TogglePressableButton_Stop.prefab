@@ -23,6 +23,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TogglePressableButton_Stop
       objectReference: {fileID: 0}
+    - target: {fileID: 1147649739598636238, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1147649740051854652, guid: bb45df82ba657a845aea1b5aa230164f, type: 3}
       propertyPath: m_IsActive
       value: 0
