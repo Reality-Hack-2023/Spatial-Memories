@@ -22,6 +22,7 @@ public class PathGenerator : MonoBehaviour
     private PathGeneratorState pathGeneratorState = PathGeneratorState.Unplayed;
     public GameObject[] pathSpheres;
     public GameObject[] oldSpheres;
+    public GameObject ringo;
 
     public GameObject nextMemory;
 
@@ -44,6 +45,9 @@ public class PathGenerator : MonoBehaviour
             Color objectColor = new Color(currentColorMaterial.r, currentColorMaterial.g, currentColorMaterial.b, 0.0f);
             pathSpheres[i].GetComponent<Renderer>().material.color = objectColor;
         }
+        Color currentRingoColor = ringo.GetComponent<Renderer>().material.color;
+        Color ringoColor = new Color(currentRingoColor.r, currentRingoColor.g, currentRingoColor.b, 0.0f);
+        ringo.GetComponent<Renderer>().material.color = ringoColor;
     }
 
     // Update is called once per frame
@@ -92,6 +96,10 @@ public class PathGenerator : MonoBehaviour
                 Color objectColor = new Color(currentColorMaterial.r, currentColorMaterial.g, currentColorMaterial.b, lerpedAlpha);
                 pathSpheres[i].GetComponent<Renderer>().material.color = objectColor;
             }
+
+            Color currentRingoColor = ringo.GetComponent<Renderer>().material.color;
+            Color ringoColor = new Color(currentRingoColor.r, currentRingoColor.g, currentRingoColor.b, lerpedAlpha);
+            ringo.GetComponent<Renderer>().material.color = ringoColor;
 
             if (lerpedAlpha >= 1.0f)
             {

@@ -2758,6 +2758,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: d4f6ce3930983ff4b86cf6f732e71164, type: 3}
+    - target: {fileID: 1821556715970268286, guid: 255731977d4e90549a7c8521ea266a2b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255731977d4e90549a7c8521ea266a2b, type: 3}
 --- !u!4 &439167799 stripped
@@ -2803,6 +2807,7 @@ MonoBehaviour:
   - {fileID: 1494389267}
   - {fileID: 660254399}
   oldSpheres: []
+  ringo: {fileID: 0}
   nextMemory: {fileID: 1189229235}
   collider: {fileID: 439167803}
   audio: {fileID: 439167801}
@@ -11770,6 +11775,7 @@ MonoBehaviour:
   - {fileID: 1072352895}
   - {fileID: 1543784009}
   - {fileID: 576151538}
+  ringo: {fileID: 0}
   nextMemory: {fileID: 0}
   collider: {fileID: 931019452}
   audio: {fileID: 931019450}
@@ -18924,6 +18930,7 @@ MonoBehaviour:
   - {fileID: 1575150450}
   - {fileID: 1494389267}
   - {fileID: 660254399}
+  ringo: {fileID: 0}
   nextMemory: {fileID: 505917507}
   collider: {fileID: 1189229239}
   audio: {fileID: 1189229237}
